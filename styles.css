@@ -24,3 +24,30 @@ h1 {
   max-width: 1000px;
   margin-top: 50px;
 }
+/* positioning of buttons */
+.carousel-container .button-actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* styling of buttons */
+.carousel-container .button-actions button {
+  border-radius: 5%;
+  background-color: white;
+  border: 0;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2%;
+}
+
+.carousel-container .button-actions button#prev-button {
+  margin-left: 20px;
+}
+
+.carousel-container .button-actions button#next-button {
+  margin-right: 20px;
+}
