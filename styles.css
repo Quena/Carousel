@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+}
+.carousel {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
