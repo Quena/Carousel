@@ -1,9 +1,26 @@
 h1 {
   text-align: center;
 }
-.carousel {
+.carousel-container {
   max-width: 1000px;
   position: relative;
   margin: 0 auto;
   text-align: center;
+}
+/* hides the rest of the images */
+.carousel-container .carousel-image,
+.carousel-container .carousel-item-hidden {
+  display: none;
+}
+
+/* this makes it possible to target a specific image to be the first visible image on the reel*/
+.carousel-container .visible-image {
+  display: block;
+}
+
+.carousel-container .carousel-image img {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  margin-top: 50px;
 }
