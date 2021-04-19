@@ -1,5 +1,25 @@
 h1 {
   text-align: center;
+  color: rgb(223, 221, 194);
+  background-color: black;
+  text-transform: uppercase;
+  padding: 40px 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+span {
+  color: rgb(2, 101, 126);
+  font-weight: 600;
 }
 .carousel-container {
   max-width: 1000px;
@@ -23,7 +43,7 @@ h1 {
   width: 100%;
   height: auto;
   max-width: 1000px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 /* positioning of buttons */
 .carousel-container .button-actions {
@@ -51,6 +71,15 @@ h1 {
 
 .carousel-container .button-actions button#next-button {
   margin-right: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: reset;
 }
 
 @keyframes transition {
