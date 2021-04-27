@@ -14,6 +14,7 @@ function hideAll(){
         images[imagePosition].classList.add("hidden-image")
     }
 }
+
 function nextSlide() {
     hideAll()
     if (imagePosition === totalImages - 1) {
@@ -26,10 +27,10 @@ function nextSlide() {
 
 function previousSlide() {
     hideAll()
-if (imagePosition === 0) {
+    if (imagePosition === 0) {
     imagePosition = totalImages -1
-} else {
+    } else {
     imagePosition--
-}
-images[imagePosition].classList.add("visible-image")
+    }
+    images[imagePosition].classList.add("visible-image")
 }
